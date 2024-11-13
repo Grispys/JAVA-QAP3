@@ -23,6 +23,7 @@ public class CollegeStudent extends Student{
         return("Year: " + this.year);
     }
 
+    // uses the super of the original toString and then adds on the new stuff from this class
     public String toString() {
         return  super.toString() + " Year: " + year + " Major: " + major;
     } 
