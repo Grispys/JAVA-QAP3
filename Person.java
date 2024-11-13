@@ -18,6 +18,16 @@ class Person {
         myAge = age;
     }
 
+    public String getName(){
+        return("Name: " + this.myName);
+    }
+    public String getGender(){
+        return("Gender: " + this.myGender);
+    }
+    public String getAge(){
+        return("Age: " + this.myAge);
+    }
+
 
     public String toString() {
         return myName + ", age: "  + myAge + ", gender: " + myGender; 
