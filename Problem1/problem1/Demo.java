@@ -1,3 +1,7 @@
+package problem1;
+
+// i have no idea why java is this weird. i just wanted to move these files into a folder and then declare the packages but it didnt work. i kept selectin the quick fix
+// option and it made THREE problem1 folders and NOW it works. i'm not gonna complain or bother trying to understand why. it works now and it's in a folder. whatever
 public class Demo {
     
     public static void main(String[] args) {

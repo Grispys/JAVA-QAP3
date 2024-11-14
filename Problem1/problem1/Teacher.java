@@ -1,3 +1,4 @@
+package problem1;
 public class Teacher extends Person{
     protected String subject;
     protected double salary;

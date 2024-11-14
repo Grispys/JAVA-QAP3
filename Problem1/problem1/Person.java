@@ -1,4 +1,6 @@
-class Person {
+package problem1;
+
+public class Person {
 
     protected String myName; // name of the person protected int myAge; // person’s age protected String myGender; // “M” for male, “F” for female
     protected int myAge;

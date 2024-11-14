@@ -1,4 +1,6 @@
-class Student extends Person { 
+package problem1;
+
+public class Student extends Person { 
     protected String myIdNum;
     protected int myAge;
     protected String gender;
