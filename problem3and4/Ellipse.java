@@ -29,4 +29,11 @@ public class Ellipse extends Shape{
         return("Name: " + this.name);
     }
 
+    @Override
+	public void scale(double scalingFactor) {
+        this.axesA = this.axesA * scalingFactor;
+        this.axesB = this.axesB * scalingFactor;
+        System.out.println("Shape's been scaled");
+    }
+
 }

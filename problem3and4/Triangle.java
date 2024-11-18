@@ -39,4 +39,12 @@ public class Triangle extends Shape{
     public String getName(){
         return("Name: " + this.name);
     }
+
+    @Override
+	public void scale(double scalingFactor) {
+        this.side1 = this.side1 * scalingFactor;
+        this.side2 = this.side2 * scalingFactor;
+        this.side3 = this.side3 * scalingFactor;
+        System.out.println("Shape has been scaled!");
+    }
 }

@@ -1,6 +1,6 @@
 package problem3and4;
 
-public abstract class Shape {
+public abstract class Shape implements Scalable{
     protected String name;
 
     abstract public String getArea();

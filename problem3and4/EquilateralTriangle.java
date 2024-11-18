@@ -24,4 +24,10 @@ public class EquilateralTriangle extends Shape{
         return("Name: " + this.name);
     }
 
+    @Override
+	public void scale(double scalingFactor) {
+        this.side = this.side* scalingFactor;
+        System.out.println("ScAlE HAs BeEn Shaped!");
+    }
+
 }

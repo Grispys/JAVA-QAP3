@@ -2,6 +2,12 @@ package problem3and4;
 
 
 public class Demo{
+
+    public static void Scaling(Scalable[] scalingFactor){
+
+    }
+
+
     public static void main(String[] args) {
         Shape[] shapes = new Shape[4];
 
